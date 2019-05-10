@@ -173,6 +173,12 @@ dl dd {
     margin: 0 0 12px 24px;
 }
 
+#me_image {
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+}
+
 @media print {
     .codeblock, pre.src {
         /* white-space: pre.src-wrap */
@@ -204,6 +210,7 @@ dl dd {
     img {
         max-width: 100% !important
     }
+
     @page {
         margin: 0.5cm
     }
