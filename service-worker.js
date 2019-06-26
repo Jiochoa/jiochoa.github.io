@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Jiochoa/jiochoa.github.io/mywebsite/precache-manifest.25e6d1e0be5bc3b1cbecdd72a636fcc9.js"
+  "/Jiochoa/jiochoa.github.io/tree/master/src/precache-manifest.5bb299b53a4fd6e52559f9a210af1916.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/Jiochoa/jiochoa.github.io/mywebsite/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/Jiochoa/jiochoa.github.io/tree/master/src/index.html"), {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
