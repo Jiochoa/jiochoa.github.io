@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Jiochoa/jiochoa.github.io/tree/master/public/static/css/main.367771fe.chunk.css",
-    "main.js": "/Jiochoa/jiochoa.github.io/tree/master/public/static/js/main.0669b830.chunk.js",
-    "main.js.map": "/Jiochoa/jiochoa.github.io/tree/master/public/static/js/main.0669b830.chunk.js.map",
-    "runtime~main.js": "/Jiochoa/jiochoa.github.io/tree/master/public/static/js/runtime~main.a7395612.js",
-    "runtime~main.js.map": "/Jiochoa/jiochoa.github.io/tree/master/public/static/js/runtime~main.a7395612.js.map",
-    "static/css/2.31dafeb2.chunk.css": "/Jiochoa/jiochoa.github.io/tree/master/public/static/css/2.31dafeb2.chunk.css",
-    "static/js/2.23aae542.chunk.js": "/Jiochoa/jiochoa.github.io/tree/master/public/static/js/2.23aae542.chunk.js",
-    "static/js/2.23aae542.chunk.js.map": "/Jiochoa/jiochoa.github.io/tree/master/public/static/js/2.23aae542.chunk.js.map",
-    "index.html": "/Jiochoa/jiochoa.github.io/tree/master/public/index.html",
-    "precache-manifest.53686a6d121eaed1ce202bf74d38b306.js": "/Jiochoa/jiochoa.github.io/tree/master/public/precache-manifest.53686a6d121eaed1ce202bf74d38b306.js",
-    "service-worker.js": "/Jiochoa/jiochoa.github.io/tree/master/public/service-worker.js",
-    "static/css/2.31dafeb2.chunk.css.map": "/Jiochoa/jiochoa.github.io/tree/master/public/static/css/2.31dafeb2.chunk.css.map",
-    "static/css/main.367771fe.chunk.css.map": "/Jiochoa/jiochoa.github.io/tree/master/public/static/css/main.367771fe.chunk.css.map",
-    "static/media/image_me.jpg": "/Jiochoa/jiochoa.github.io/tree/master/public/static/media/image_me.569998ff.jpg"
+    "main.css": "/Jiochoa/jiochoa.github.io/static/css/main.367771fe.chunk.css",
+    "main.js": "/Jiochoa/jiochoa.github.io/static/js/main.cb1ece71.chunk.js",
+    "main.js.map": "/Jiochoa/jiochoa.github.io/static/js/main.cb1ece71.chunk.js.map",
+    "runtime~main.js": "/Jiochoa/jiochoa.github.io/static/js/runtime~main.5351c56f.js",
+    "runtime~main.js.map": "/Jiochoa/jiochoa.github.io/static/js/runtime~main.5351c56f.js.map",
+    "static/css/2.31dafeb2.chunk.css": "/Jiochoa/jiochoa.github.io/static/css/2.31dafeb2.chunk.css",
+    "static/js/2.23aae542.chunk.js": "/Jiochoa/jiochoa.github.io/static/js/2.23aae542.chunk.js",
+    "static/js/2.23aae542.chunk.js.map": "/Jiochoa/jiochoa.github.io/static/js/2.23aae542.chunk.js.map",
+    "index.html": "/Jiochoa/jiochoa.github.io/index.html",
+    "precache-manifest.968a134b6611cd6a1666a0a6efcc0fb2.js": "/Jiochoa/jiochoa.github.io/precache-manifest.968a134b6611cd6a1666a0a6efcc0fb2.js",
+    "service-worker.js": "/Jiochoa/jiochoa.github.io/service-worker.js",
+    "static/css/2.31dafeb2.chunk.css.map": "/Jiochoa/jiochoa.github.io/static/css/2.31dafeb2.chunk.css.map",
+    "static/css/main.367771fe.chunk.css.map": "/Jiochoa/jiochoa.github.io/static/css/main.367771fe.chunk.css.map",
+    "static/media/image_me.jpg": "/Jiochoa/jiochoa.github.io/static/media/image_me.569998ff.jpg"
   }
 }
