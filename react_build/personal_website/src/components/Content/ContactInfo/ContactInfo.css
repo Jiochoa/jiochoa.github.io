@@ -1,0 +1,10 @@
+.Tilt {
+
+}
+
+#image_me {
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+    padding-top: 10px;
+}
