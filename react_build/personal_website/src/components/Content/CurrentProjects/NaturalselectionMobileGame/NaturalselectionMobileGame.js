@@ -10,13 +10,16 @@ const NaturalselectionMobileGame = () => {
       </h3>
       <div class="outline-text-3" id="text-naturalselection-mobile-game">
         <p>
-          I’m working on a mobile app dedicated to teach Darwinian Natural Selection in a fun way. The app will have you operating Nature as the main character and its objective is to eliminate the organisms that will keep popping up on the field.
+          I am working on a mobile app designed to teach Darwinian Natural Selection in a fun way. The app will have you operating Nature as the main character and its objective is to eliminate the organisms that will keep popping up on the field. As the game progresses more and more defining aspects of Natural Selection will become apparent.        
         </p>
         <p>
-          The idea is to show the player how hard it is to eradicate living organisms when they evolve and adjust to the environment.
+          I believe Darwinian Natural Selection can be a difficult topic to teach specially with all the misinformation that surrounds it. The goal of the game is to explain some of the less intuitive aspects as well as showing the player how hard it is to eradicate living organisms when they evolve and adjust to the environment.        
         </p>
         <p>
           The game is still in the planning phase. Will post updates as they come. If you want to subscribe to updates you can subscribe to the mail list to receive updates.
+        </p>
+        <p>
+          The game is still in the planning phase. Will post updates as possible. 
         </p>
 
       </div>

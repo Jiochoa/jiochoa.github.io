@@ -12,7 +12,7 @@ const Tutorials = () => {
       </h2>
       <div class="outline-text-2" id="text-tutorials">
         <p>
-          In Progress..
+          This section is dedicated to teaching some of the things I’ve learned throughout my years in Computer Science as well as some interesting things that I am passionate about that I deem useful enough to teach.
         </p>
       </div>
       

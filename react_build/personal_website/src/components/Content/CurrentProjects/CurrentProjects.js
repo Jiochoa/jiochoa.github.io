@@ -13,7 +13,7 @@ const CurrentProjects = () => {
       </h2>
       <div class="outline-text-2" id="text-current-projects">
         <p>
-          This section will include some of the projects I've been working on as well as some past projects.
+          This section includes some of the projects I've been working on as well as some past projects.        
         </p>
       </div>
       {/* Projects */}
