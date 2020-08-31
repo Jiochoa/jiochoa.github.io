@@ -1,0 +1,30 @@
+.row {
+    margin-left: -0.9375rem;
+    margin-right: -0.9375rem; 
+}
+.row:before,
+.row:after {
+  content: " ";
+  display: table; 
+}
+.row:after {
+  clear: both; 
+}
+#screenshot {
+    margin-bottom: 4em;
+  }
+
+  .wp {
+    visibility: hidden; 
+}
+.wp-3 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s; 
+}
+.slick-slide {
+    outline: none;
+}
+
+.wp.animated {
+    visibility: visible; 
+}

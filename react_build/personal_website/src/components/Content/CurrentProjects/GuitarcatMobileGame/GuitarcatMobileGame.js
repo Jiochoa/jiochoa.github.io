@@ -1,4 +1,24 @@
 import React from 'react';
+import '../CurrentProjects.css';
+import gameImage1 from '../../Media/Screenshot_1.jpg';
+import gameImage2 from '../../Media/Screenshot_2.jpg';
+import gameImage3 from '../../Media/Screenshot_3.jpg';
+
+const style1 = {
+  display: 'block'
+}
+const style2 = {
+  opacity: '1',
+  width: '6720px', 
+  transform: 'translate3d(-3840px, 0px, 0px)'
+}
+
+const style3 = {
+  width: '960px'
+}
+
+
+
 
 const GuitarcatMobileGame = () => {
   return (
@@ -14,6 +34,9 @@ const GuitarcatMobileGame = () => {
         </p>
         <p>
           The game was developed with C# on UNITY 3D using pixel art.
+        </p>
+        <p>
+          <img id="Screenshot_1" src={gameImage3} alt="GuitarCat"/>
         </p>
 
         <p>

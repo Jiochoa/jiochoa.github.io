@@ -1,6 +1,7 @@
 import React from 'react';
 import Tilt from 'react-tilt';
-import myimage from './Images/image_me.jpg';
+// import myimage from './Images/image_me.jpg';
+import myimage from '../Media/headshot.jpg';
 import './ContactInfo.css';
 
 
@@ -17,6 +18,7 @@ const ContactInfo = () => {
           Any questions you can reach me at my email: jiochoa@miners.utep.edu
         </p>
 
+        {/* Headshot */ }
         <Tilt className="Tilt br2 center" options={{ max: 55 }} style={{ height: 250, width: 250 }} >
           <div className="Tilt-inner">
             <img id='image_me' src={myimage} alt='Juan Ochoa' />
@@ -24,11 +26,11 @@ const ContactInfo = () => {
         </Tilt>
 
         <p>
-          LinkedIn: <a href="https://www.linkedin.com/in/juan-ochoa-55a15b112">link</a>
+          LinkedIn: <a href="https://www.linkedin.com/in/juan-ochoa-55a15b112">linkedin.com/in/juan-ochoa-55a15b112</a>
         </p>
 
         <p>
-          GitHub: <a href="https://github.com/jiochoa">link</a>
+          GitHub: <a href="https://github.com/jiochoa">github.com/jiochoa</a>
         </p>
 
       </div>
