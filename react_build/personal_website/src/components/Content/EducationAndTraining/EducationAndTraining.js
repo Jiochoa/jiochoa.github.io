@@ -27,7 +27,7 @@ const EducationAndTraining = () => {
             <b>B.S. in Computer Science with a Minor in Mathematics</b>
             <ul>
               <li>University of Texas at El Paso (UTEP) </li>
-              <li>Awarded: May 2016 GPA: 2.8</li>
+              <li>Awarded: May 2016 GPA: 2.8/4.0</li>
             </ul>
           </li>
           <li>

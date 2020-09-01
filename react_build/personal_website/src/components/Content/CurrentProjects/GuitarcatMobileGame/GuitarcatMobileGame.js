@@ -33,7 +33,7 @@ const GuitarcatMobileGame = () => {
           This is a fun Mobile game I’ve been working on about a cat that shoots musical notes to destroy aliens. It entails most of my interests including pets, which I have way too many according to some, music and cosmic mysteries.
         </p>
         <p>
-          The game was developed with C# on UNITY 3D using pixel art.
+          The game was developed with <code>C#</code> on <code>Unity3D</code> using pixel art.
         </p>
         <p>
           <img id="Screenshot_1" src={gameImage3} alt="GuitarCat"/>

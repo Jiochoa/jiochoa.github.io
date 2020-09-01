@@ -10,13 +10,17 @@ const Interests = () => {
       </h2>
       <div class="outline-text-2" id="text-interests">
         <p>
-          I'm a trained software engineer (SE) therefore most of my interests reside in that area. What specially interest me about Software Engineering is the security aspect, as it is extremely easy to disregard this part of most software specially when clients tend to ignore the implications of having a vulnerable system. Although, its not mainly their fault since the clients tend to be non-technical people who are more interested in a working product than a secure one.
+          I earned my master’s degree from the University of Texas at El Paso in 2018. Since then, due to some family complications, I’ve been working on my family’s business which involve managing and maintaining a few online stores while on the side working on some projects and ideas.   
         </p>
         <p>
-          Another big interest of mine is in Artificial Intelligence (AI). Many knowledgeable people. such as Elon Musk and Stephen Hawking, have shown concern about Artificial Intelligence and I can see why. To put it in simple terms, there are some AI’s that are indistinguishable from a human mind and they keep improving. Some AI’s us game theory to achieve their goals and, depending on the AI, these goals could be malicious.
+          I am a trained Software Engineer therefore most of my interests are in coding and overall new tools to facilitate switching an idea into code. What specially interest me is the security aspect of programming, it is extremely easy to disregard this aspect of software, specially when clients tend to ignore the implications of having a vulnerable system. For the most part, it is not their fault since the clients tend to be non-technical and are mostly interested in a working product rather than a secure one. 
         </p>
         <p>
-          As for non-technical interests, I also play guitar and piano on my free time. After a good day of coding I haven't been able to find a more soothing exercise than to get lost on my music and just play.
+          Another big interest is in Artificial Intelligence and more specifically in the moral aspect of it. More and more devices are making important choices on their own, and some of these choices could potentially require an extensive knowledge in moral philosophy. Simple day to day decisions can lead to an extremely difficult moral decision that we need to make sure the AI is prepared for. This is another reason why Cyber Security is so important.
+        </p>
+
+        <p>
+          As for non-technical interests, I also play piano and guitar on my free time. After a good day of coding I haven't been able to find a more soothing exercise than to get lost on my music and just play.
         </p>
 
       </div>
