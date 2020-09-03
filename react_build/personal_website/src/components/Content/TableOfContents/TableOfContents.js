@@ -23,7 +23,7 @@ const TableOfContents = () => {
           <li><a href="#tutorials">5. Tutorials</a>
             <ul>
               <li><a href="#programming-tutorials">5.1. Programming Tutorials</a></li>
-              <li><a href="#other-tutorials">5.1. Other Tutorials</a></li>
+              <li><a href="#other-tutorials">5.2. Other Tutorials</a></li>
             </ul>
           </li>
           <li><a href="#contact-info">6. Contact Info</a></li>

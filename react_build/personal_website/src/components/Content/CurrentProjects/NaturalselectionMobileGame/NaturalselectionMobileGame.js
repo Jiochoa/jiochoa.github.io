@@ -3,7 +3,7 @@ import React from 'react';
 const NaturalselectionMobileGame = () => {
   return (
     <div id="outline-container-orgheadline43" class="outline-3">
-      <h3 id="face-recognition-project">
+      <h3 id="naturalselection-mobile-game">
         <a id="orgheadline3"></a>
         <span class="section-number-3">4.3</span>
         {' Natural Selection Mobile Game'}

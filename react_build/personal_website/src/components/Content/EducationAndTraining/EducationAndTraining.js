@@ -19,7 +19,7 @@ const EducationAndTraining = () => {
           <li>
             <b>M.S. in Software Engineering with a Concentration in Secure Cyber-Systems </b>
             <ul>
-              <li>University of Texas at El Paso (UTEP) Awarder Awarded: Dec. 2018	GPA: 3.2/4.0</li>
+              <li>University of Texas at El Paso (UTEP)</li>
               <li>Awarder Awarded: Dec. 2018	GPA: 3.2/4.0</li>
             </ul>
           </li>

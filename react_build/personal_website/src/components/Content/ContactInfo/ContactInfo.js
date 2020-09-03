@@ -8,7 +8,7 @@ import './ContactInfo.css';
 const ContactInfo = () => {
   return (
     <div id="outline-container-orgheadline6" class="outline-2">
-      <h2 id="Contact-info">
+      <h2 id="contact-info">
         <a id="orgheadline6"></a>
         <span class="section-number-2">6</span>
         {' Contact Info'}
