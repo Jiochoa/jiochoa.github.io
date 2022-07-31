@@ -10,7 +10,7 @@ const Interests = () => {
       </h2>
       <div class="outline-text-2" id="text-interests">
         <p>
-          I earned my master’s degree from the University of Texas at El Paso in 2018. Since then, due to some family complications, I’ve been working on my family’s business which involve managing and maintaining a few online stores while on the side working on some projects and ideas.   
+          I earned my master’s degree from the University of Texas at El Paso in 2018. Since then, I’ve been working on my family’s business which involve managing and maintaining a few online stores while on the side working on some projects and ideas.   
         </p>
         <p>
           I am a trained Software Engineer therefore most of my interests are in coding and overall new tools to facilitate switching an idea into code. What specially interest me is the security aspect of programming, it is extremely easy to disregard this aspect of software, specially when clients tend to ignore the implications of having a vulnerable system. For the most part, it is not their fault since the clients tend to be non-technical and are mostly interested in a working product rather than a secure one. 
