@@ -10,7 +10,7 @@ const Philosophy = () => {
       </h2>
       <div class="outline-text-2" id="text-philosophy">
         <p>
-          Coming soon..
+          Coming soon...
         </p>
       </div>
     </div>
