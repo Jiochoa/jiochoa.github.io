@@ -2,6 +2,7 @@ import React from 'react';
 import Tilt from 'react-tilt';
 // import myimage from './Images/image_me.jpg';
 import myimage from '../Media/headshot.jpg';
+import myimage2 from './Images/Me.png'
 import './ContactInfo.css';
 
 
@@ -10,7 +11,7 @@ const ContactInfo = () => {
     <div id="outline-container-orgheadline6" class="outline-2">
       <h2 id="contact-info">
         <a id="orgheadline6"></a>
-        <span class="section-number-2">6</span>
+        <span class="section-number-2">5</span>
         {' Contact Info'}
       </h2>
       <div class="outline-text-2" id="text-Contact-info">
@@ -21,7 +22,9 @@ const ContactInfo = () => {
         {/* Headshot */ }
         <Tilt className="Tilt br2 center" options={{ max: 55 }} style={{ height: 250, width: 250 }} >
           <div className="Tilt-inner">
-            <img id='image_me' src={myimage} alt='Juan Ochoa' />
+            {/* <img id='image_me' src={myimage} alt='Juan Ochoa' /> */}
+            <img id='image_me2' src={myimage2} alt='Juan Ochoa' style={{ height: 200, width: 200 }} />
+            
           </div>
         </Tilt>
 

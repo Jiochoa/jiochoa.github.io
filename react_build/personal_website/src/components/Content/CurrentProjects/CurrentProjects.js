@@ -8,7 +8,7 @@ const CurrentProjects = () => {
     <div id="outline-container-orgheadline4" class="outline-2">
       <h2 id="current-projects">
         <a id="orgheadline4"></a>
-        <span class="section-number-2">4</span>
+        <span class="section-number-2">3</span>
         {' Current Projects'}
       </h2>
       <div class="outline-text-2" id="text-current-projects">

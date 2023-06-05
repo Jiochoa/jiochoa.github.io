@@ -7,7 +7,7 @@ const Tutorials = () => {
     <div id="outline-container-orgheadline5" class="outline-2">
       <h2 id="tutorials">
         <a id="orgheadline5"></a>
-        <span class="section-number-2">5</span>
+        <span class="section-number-2">4</span>
         {' Tutorials'}
       </h2>
       <div class="outline-text-2" id="text-tutorials">

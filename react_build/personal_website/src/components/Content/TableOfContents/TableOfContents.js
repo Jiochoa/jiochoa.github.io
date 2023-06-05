@@ -10,23 +10,23 @@ const TableOfContents = () => {
       </h2>
       <div id="text-table-of-contents">
         <ul>
-          <li><a href="#philosophy">1. Philosophy</a></li>
-          <li><a href="#interests">2. Interests</a></li>
-          <li><a href="#education-and-training">3. Education and Training</a></li>
-          <li><a href="#current-projects">4. Current Projects</a>
+          {/* <li><a href="#philosophy">1. Philosophy</a></li> */}
+          <li><a href="#interests">1. Intro</a></li>
+          <li><a href="#education-and-training">2. Education and Training</a></li>
+          <li><a href="#current-projects">3. Current Projects</a>
             <ul>
-              <li><a href="#face-recognition-project">4.1. Face Recognition Project</a></li>
-              <li><a href="#guitarcat-mobile-game">4.2. Guitar Cat Mobile Game</a></li>
-              <li><a href="#naturalselection-mobile-game">4.3. Natural Selection Mobile Game</a></li>
+              <li><a href="#face-recognition-project">3.1. Face Recognition Project</a></li>
+              <li><a href="#guitarcat-mobile-game">3.2. CyberCat Mobile Game</a></li>
+              <li><a href="#naturalselection-mobile-game">3.3. Natural Selection Mobile Game</a></li>
             </ul>
           </li>
-          <li><a href="#tutorials">5. Tutorials</a>
+          <li><a href="#tutorials">4. Tutorials</a>
             <ul>
-              <li><a href="#programming-tutorials">5.1. Programming Tutorials</a></li>
-              <li><a href="#other-tutorials">5.2. Other Tutorials</a></li>
+              <li><a href="#programming-tutorials">4.1. Programming Tutorials</a></li>
+              <li><a href="#other-tutorials">4.2. Other Tutorials</a></li>
             </ul>
           </li>
-          <li><a href="#contact-info">6. Contact Info</a></li>
+          <li><a href="#contact-info">5. Contact Info</a></li>
         </ul>
       </div>
 

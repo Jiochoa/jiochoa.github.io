@@ -15,7 +15,7 @@ const Content = () => {
         <div id="content">
             <ToggleSidebar />
             <TableOfContents />
-            <Philosophy />
+            {/* <Philosophy /> */}
             <Interests />
             <EducationAndTraining />
             <CurrentProjects />
