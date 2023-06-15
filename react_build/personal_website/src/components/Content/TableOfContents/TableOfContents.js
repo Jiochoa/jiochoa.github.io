@@ -17,7 +17,7 @@ const TableOfContents = () => {
             <ul>
               <li><a href="#face-recognition-project">3.1. Face Recognition Project</a></li>
               <li><a href="#guitarcat-mobile-game">3.2. CyberCat Mobile Game</a></li>
-              {/* <li><a href="#naturalselection-mobile-game">3.3. Natural Selection Mobile Game</a></li> */}
+              <li><a href="#naturalselection-mobile-game">3.3. ChatGPt Mobile App</a></li>
             </ul>
           </li>
           <li><a href="#tutorials">4. Tutorials</a>

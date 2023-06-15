@@ -6,7 +6,7 @@ const NaturalselectionMobileGame = () => {
       <h3 id="naturalselection-mobile-game">
         <a id="orgheadline3"></a>
         <span class="section-number-3">3.3</span>
-        {' Natural Selection Mobile Game'}
+        {' ChatGPT Mobile App'}
       </h3>
       <div class="outline-text-3" id="text-naturalselection-mobile-game">
         <p>

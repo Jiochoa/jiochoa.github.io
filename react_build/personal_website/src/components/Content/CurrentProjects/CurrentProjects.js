@@ -19,7 +19,7 @@ const CurrentProjects = () => {
       {/* Projects */}
       <FaceRecognitionProject />
       <GuitarcatMobileGame />
-      {/* <NaturalselectionMobileGame /> */}
+      <NaturalselectionMobileGame />
         
     </div>
   );
