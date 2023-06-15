@@ -20,14 +20,18 @@ const EducationAndTraining = () => {
             <b>M.S. in Software Engineering with a Concentration in Secure Cyber-Systems </b>
             <ul>
               <li>University of Texas at El Paso (UTEP)</li>
-              <li>Awarder Awarded: Dec. 2020	GPA: 3.3/4.0</li>
+              <li>Awarded: Dec. 2020</li>
+              {/* <li>Awarded: Dec. 2020	GPA: 3.3/4.0</li> */}
+              
             </ul>
           </li>
           <li>
             <b>B.S. in Computer Science with a Minor in Mathematics</b>
             <ul>
               <li>University of Texas at El Paso (UTEP) </li>
-              <li>Awarded: May 2016 GPA: 2.8/4.0</li>
+              <li>Awarded: May 2016</li>
+              {/* <li>Awarded: May 2016 GPA: 2.8/4.0</li> */}
+              
             </ul>
           </li>
           <li>

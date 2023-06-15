@@ -14,8 +14,7 @@ const ProgrammingTutorials = () => {
           have a long way to go but plan to have the remaining by the end of the year. 
           Here's the latest one.
         </p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/GFMYkujs3v8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HetxHDOcR4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </div>
   );
