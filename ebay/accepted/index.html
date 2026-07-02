@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Connecting to Seller Helper…</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 3rem 1.5rem; text-align: center; color: #222; }
+    a.button { display: inline-block; margin-top: 1rem; padding: .75rem 1.25rem;
+               background: #2f66f5; color: #fff; border-radius: 8px; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <p>Finishing your eBay connection…</p>
+  <a id="return" class="button" href="#">Return to Seller Helper</a>
+  <script>
+    // eBay redirects here (the RuName's "accepted URL") with the OAuth ?code=… in the query.
+    // Forward the whole query string into the Seller Helper app's custom scheme; the app's
+    // MainActivity intent-filter (sellerhelper://ebay-auth) catches it and finishes the token
+    // exchange. This page is the eBay OAuth accepted URL — see the SellerHelperEbay repo.
+    (function () {
+      var target = "sellerhelper://ebay-auth" + (window.location.search || "");
+      var link = document.getElementById("return");
+      link.href = target;
+      // Auto-forward; the button is a manual fallback if the browser blocks the auto-redirect.
+      window.location.replace(target);
+    })();
+  </script>
+</body>
+</html>
