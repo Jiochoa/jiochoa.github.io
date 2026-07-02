@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>eBay sign-in cancelled</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 3rem 1.5rem; text-align: center; color: #222; }
+    a.button { display: inline-block; margin-top: 1rem; padding: .75rem 1.25rem;
+               background: #2f66f5; color: #fff; border-radius: 8px; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <p>eBay sign-in was cancelled. Returning to Seller Helper…</p>
+  <a id="return" class="button" href="#">Return to Seller Helper</a>
+  <script>
+    // eBay redirects here (the RuName's "declined URL") when the user cancels consent. Forward
+    // back into the Seller Helper app's custom scheme with an error flag so the app shows a
+    // "sign-in cancelled" message and returns to the app instead of dead-ending in the browser.
+    // The app's MainActivity intent-filter (sellerhelper://ebay-auth) catches it.
+    (function () {
+      var query = window.location.search || "";
+      // Guarantee the app sees an error param even if eBay appended none.
+      if (query.indexOf("error=") === -1) {
+        query = query ? query + "&error=access_denied" : "?error=access_denied";
+      }
+      var target = "sellerhelper://ebay-auth" + query;
+      var link = document.getElementById("return");
+      link.href = target;
+      window.location.replace(target);
+    })();
+  </script>
+</body>
+</html>
