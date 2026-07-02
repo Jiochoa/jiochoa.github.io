@@ -1,1 +1,123 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>Juan's Homepage</title><script defer="defer" src="/static/js/main.bd0c688d.js"></script><link href="/static/css/main.aac607ff.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juan Ochoa — Software Engineer</title>
+  <meta name="description" content="Juan Ochoa is a software engineer focused on building secure, reliable systems." />
+
+  <meta property="og:title" content="Juan Ochoa — Software Engineer" />
+  <meta property="og:description" content="Software engineer focused on building secure, reliable systems." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#top">Juan Ochoa</a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#tutorials">Tutorials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero container">
+      <img class="hero-photo" src="/assets/images/headshot.jpg" alt="Portrait of Juan Ochoa" width="200" height="200" />
+      <div class="hero-text">
+        <p class="eyebrow">Software Engineer</p>
+        <h1>Juan Ochoa</h1>
+        <p class="hero-subtitle">
+          Building secure, reliable software — and the tools that make it easier to turn ideas into code.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Get in touch</a>
+          <a class="btn btn-secondary" href="https://github.com/jiochoa" target="_blank" rel="noopener">View GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h2>About</h2>
+      <p>
+        I hold a Master's degree in Software Engineering, with a concentration in Secure
+        Cyber-Systems, from the University of Texas at El Paso. My professional interest
+        is in the security side of software: it's easy to overlook how a system can be
+        misused, especially since most users — reasonably — care more about a product
+        working than about it being secure. I try to design and build with that gap in
+        mind, and I enjoy finding tools that make it easier to turn an idea into working,
+        trustworthy code.
+      </p>
+      <p>
+        Outside of engineering, I play piano and guitar — after a day of writing code,
+        getting lost in music is still the best reset I've found.
+      </p>
+    </section>
+
+    <section id="education" class="section container">
+      <h2>Education</h2>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <p class="timeline-date">Dec 2020</p>
+          <h3>M.S. in Software Engineering — Concentration in Secure Cyber-Systems</h3>
+          <p class="meta">University of Texas at El Paso</p>
+        </li>
+        <li class="timeline-item">
+          <p class="timeline-date">May 2016</p>
+          <h3>B.S. in Computer Science — Minor in Mathematics</h3>
+          <p class="meta">University of Texas at El Paso</p>
+        </li>
+        <li class="timeline-item">
+          <p class="timeline-date">Dec 2012</p>
+          <h3>Associate of Arts</h3>
+          <p class="meta">El Paso Community College</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="tutorials" class="section container">
+      <h2>Tutorials</h2>
+      <p>
+        I occasionally record tutorials on things I've learned in my years in
+        software engineering. Here's the latest, part of an ongoing series
+        covering software design patterns.
+      </p>
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/HetxHDOcR4g"
+          title="Design Patterns Tutorial"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-heading">Let's connect</p>
+      <ul class="social-links">
+        <li><a href="mailto:jiochoa@miners.utep.edu">Email</a></li>
+        <li><a href="https://www.linkedin.com/in/juan-ochoa-55a15b112" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/jiochoa" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+      <p class="copyright">© <span id="year"></span> Juan Ochoa</p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>
