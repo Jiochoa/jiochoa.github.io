@@ -132,20 +132,8 @@ a:focus-visible {
 /* Hero */
 
 .hero {
-  display: flex;
-  align-items: center;
-  gap: 40px;
   padding: 96px 24px 72px;
   scroll-margin-top: var(--header-height);
-}
-
-.hero-photo {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid var(--border);
-  flex-shrink: 0;
 }
 
 .eyebrow {
@@ -370,7 +358,6 @@ a:focus-visible {
   }
 
   .hero {
-    flex-direction: column;
     text-align: center;
     padding-top: 64px;
   }
