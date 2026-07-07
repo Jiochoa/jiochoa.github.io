@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Seller Helper AI for eBay</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #222; }
+    h1 { font-size: 1.6rem; } h2 { font-size: 1.2rem; margin-top: 2rem; }
+    @media (prefers-color-scheme: dark) { body { background: #111; color: #ddd; } }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy — Seller Helper AI for eBay</h1>
+  <p><em>Last updated: July 6, 2026</em></p>
+
+  <p>Seller Helper AI for eBay ("the app") helps you photograph a secondhand item,
+  analyze it with AI, and publish it as a listing on your own eBay account. This policy
+  describes what data the app handles and where it goes. The app is developed by an
+  independent developer and is not affiliated with or endorsed by eBay Inc.</p>
+
+  <h2>Information the app collects</h2>
+  <ul>
+    <li><strong>Google account (sign-in):</strong> if you sign in, we receive your Google
+    account email address and identifier via Firebase Authentication. This identifies your
+    token balance (tokens are used to publish listings).</li>
+    <li><strong>Photos:</strong> photos you take or pick are stored on your device. They are
+    sent to Google's Gemini AI service (via Firebase) to analyze the item, and uploaded to
+    eBay's picture hosting service when you publish a listing.</li>
+    <li><strong>eBay account connection:</strong> when you connect your eBay account, eBay
+    issues the app access tokens that are stored only on your device. The app uses them to
+    create listings on your behalf when you explicitly tap Publish — never on its own.</li>
+    <li><strong>Listing details:</strong> item details (title, description, item specifics,
+    price), your ZIP code, and package weight are stored on your device and sent to eBay as
+    part of the listings you publish.</li>
+    <li><strong>Token balance and purchase records:</strong> your token balance and per-listing
+    spend records are stored in Google Firestore, tied to your signed-in account.</li>
+  </ul>
+
+  <h2>What the app does not do</h2>
+  <ul>
+    <li>No advertising and no ad tracking.</li>
+    <li>Your data is never sold or shared with third parties beyond the services named above
+    (Google Firebase and eBay), which are used solely to provide the app's functionality.</li>
+    <li>No background activity on your eBay account — listings are created only on your
+    explicit action.</li>
+  </ul>
+
+  <h2>Data retention and deletion</h2>
+  <p>Item entries and photos live on your device and are deleted when you delete them or
+  uninstall the app. Disconnecting your eBay account removes its tokens from your device.
+  To delete your account data on our servers (sign-in record, token balance, spend history),
+  email the address below from your signed-in Google account and it will be removed.</p>
+
+  <h2>Children</h2>
+  <p>The app is not directed at children under 13 and requires an eBay account to publish.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the updated version will be posted at this address with a new
+  "last updated" date.</p>
+
+  <h2>Contact</h2>
+  <p>Juan Ochoa — <a href="mailto:jochoa105@gmail.com">jochoa105@gmail.com</a></p>
+</body>
+</html>
