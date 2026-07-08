@@ -1,2 +1,7 @@
 # Claude Code local settings (machine/user-specific, not shared)
-.claude/settings.local.json
+# .claude/settings.local.json
+# --- Claude Code ---
+.claude/
+
+# --- Local-only docs (working notes, not for the public repo) ---
+CLAUDE.md
