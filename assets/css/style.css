@@ -262,6 +262,95 @@ a:focus-visible {
   font-size: 0.9rem;
 }
 
+/* Recent Projects */
+
+.project-card {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 28px;
+  margin-bottom: 24px;
+  background: var(--bg-elevated);
+}
+
+.project-card:last-child {
+  margin-bottom: 0;
+}
+
+.project-card-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.project-card h3 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.project-card h4 {
+  margin: 20px 0 8px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+
+.project-card p {
+  margin: 0 0 12px;
+  color: var(--text-muted);
+}
+
+.project-card ol,
+.project-card ul {
+  margin: 0 0 12px;
+  padding-left: 20px;
+  color: var(--text-muted);
+}
+
+.project-card li {
+  margin-bottom: 6px;
+}
+
+.project-card .video-wrapper {
+  margin-top: 8px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.badge-soon {
+  background: rgba(94, 179, 255, 0.15);
+  color: var(--accent-strong);
+  border: 1px solid rgba(94, 179, 255, 0.35);
+}
+
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.project-gallery img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.project-disclaimer {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--text-muted);
+}
+
 /* Tutorials */
 
 .video-wrapper {
@@ -364,5 +453,13 @@ a:focus-visible {
 
   .hero-actions {
     justify-content: center;
+  }
+
+  .project-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .project-card {
+    padding: 20px;
   }
 }

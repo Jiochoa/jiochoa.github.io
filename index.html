@@ -27,7 +27,7 @@
       <ul class="nav-links" id="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#education">Education</a></li>
-        <li><a href="#tutorials">Tutorials</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -86,21 +86,99 @@
       </ol>
     </section>
 
-    <section id="tutorials" class="section container">
-      <h2>Tutorials</h2>
-      <p>
-        I occasionally record tutorials on things I've learned in my years in
-        software engineering. Here's the latest, part of an ongoing series
-        covering software design patterns.
-      </p>
-      <div class="video-wrapper">
-        <iframe
-          src="https://www.youtube.com/embed/HetxHDOcR4g"
-          title="Design Patterns Tutorial"
-          loading="lazy"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+    <section id="projects" class="section container">
+      <h2>Recent Projects</h2>
+
+      <div class="project-card">
+        <div class="project-card-header">
+          <h3>Seller Helper AI for eBay</h3>
+          <span class="badge badge-soon">Coming Soon</span>
+        </div>
+        <p>
+          Selling secondhand items shouldn't take longer than finding them.
+          Seller Helper AI for eBay turns photos of an item into a
+          ready-to-publish eBay listing — you review it and publish with one
+          tap.
+        </p>
+
+        <h4>How it works</h4>
+        <ol>
+          <li>Photograph the item — a garage-sale shirt, sneakers, trading cards, cookware, almost anything.</li>
+          <li>AI analyzes the photos, identifies the item, finds the right eBay category, and fills in the title, description, condition, and the item specifics that category actually requires (brand, size, color, material, and more).</li>
+          <li>Review the details, set your price, and tap Publish. The listing goes live on your own eBay account, where you can manage it like any other listing.</li>
+        </ol>
+
+        <div class="project-gallery">
+          <img src="/assets/images/seller-helper-1.png" alt="Seller Helper AI for eBay — analyzing photos and reviewing AI-filled listing details" loading="lazy" />
+          <img src="/assets/images/seller-helper-2.png" alt="Seller Helper AI for eBay — confidence indicator explaining an AI-filled field" loading="lazy" />
+          <img src="/assets/images/seller-helper-3.png" alt="Seller Helper AI for eBay — reviewing price and details before publishing to eBay" loading="lazy" />
+        </div>
+
+        <h4>Built for honest listings</h4>
+        <ul>
+          <li>The AI only fills in what it can actually see in your photos — every field shows a confidence indicator, and anything uncertain is flagged for your review.</li>
+          <li>Fields you edit yourself are never overwritten by the AI.</li>
+          <li>Nothing is ever published automatically. A listing is only created when you tap Publish.</li>
+        </ul>
+
+        <h4>Works with any category</h4>
+        <p>
+          The app uses eBay's own category and item-specifics data, so it
+          fills in the right fields whether you're selling clothing, shoes,
+          collectibles, kitchenware, or anything else.
+        </p>
+
+        <h4>What you need</h4>
+        <ul>
+          <li>An eBay account with selling set up (the listing is created on your account, by you).</li>
+          <li>A Google account to sign in. New users get 3 free listing tokens — each published listing uses one.</li>
+        </ul>
+
+        <h4>Privacy-friendly</h4>
+        <p>
+          Your photos and item details stay on your device except when sent
+          for AI analysis and to eBay as part of the listing you publish. No
+          ads, no tracking, no selling your data.
+        </p>
+
+        <p class="project-disclaimer">
+          Seller Helper AI for eBay is an independent app and is not
+          affiliated with, endorsed, or sponsored by eBay Inc. eBay is a
+          trademark of eBay Inc.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card-header">
+          <h3>cybr-cat — Indie Games</h3>
+        </div>
+        <p>
+          A collection of small indie games I build for fun — quick
+          experiments in mechanics, art, and sound, hosted on itch.io.
+        </p>
+        <p>
+          <a class="btn btn-secondary" href="https://cybr-cat.itch.io/" target="_blank" rel="noopener">Visit itch.io page</a>
+        </p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card-header">
+          <h3>YouTube Tutorials</h3>
+        </div>
+        <p>
+          I occasionally record tutorials on things I've learned in my years in
+          software engineering. Here's the latest, part of an ongoing series
+          covering software design patterns.
+        </p>
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/HetxHDOcR4g"
+            title="Design Patterns Tutorial"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
       </div>
     </section>
   </main>
