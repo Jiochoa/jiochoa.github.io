@@ -12,7 +12,7 @@
 </head>
 <body>
   <h1>Privacy Policy — Seller Helper AI for eBay</h1>
-  <p><em>Last updated: July 6, 2026</em></p>
+  <p><em>Last updated: October 11, 2026</em></p>
 
   <p>Seller Helper AI for eBay ("the app") helps you photograph a secondhand item,
   analyze it with AI, and publish it as a listing on your own eBay account. This policy
@@ -28,32 +28,53 @@
     sent to Google's Gemini AI service (via Firebase) to analyze the item, and uploaded to
     eBay's picture hosting service when you publish a listing.</li>
     <li><strong>eBay account connection:</strong> when you connect your eBay account, eBay
-    issues the app access tokens that are stored only on your device. The app uses them to
-    create listings on your behalf when you explicitly tap Publish — never on its own.</li>
+    issues the app access tokens that are stored only on your device (they are excluded from
+    device backups). The app also stores your eBay user ID on your device so Settings can show
+    which eBay account is connected. The app uses the tokens to create listings on your behalf
+    when you explicitly tap Publish — never on its own.</li>
     <li><strong>Listing details:</strong> item details (title, description, item specifics,
-    price), your ZIP code, and package weight are stored on your device and sent to eBay as
-    part of the listings you publish.</li>
-    <li><strong>Token balance and purchase records:</strong> your token balance and per-listing
+    condition, price), your ZIP code, and package weight and dimensions are stored on your
+    device and sent to eBay as part of the listings you publish. The item's title and
+    description may also be sent to Gemini to fill in item details eBay asks for at publish
+    time.</li>
+    <li><strong>Token balance and spend records:</strong> your token balance and per-listing
     spend records are stored in Google Firestore, tied to your signed-in account.</li>
+    <li><strong>Purchases:</strong> token packs are bought through Google Play, which handles
+    payment — the app never sees your payment details. To credit your tokens, the app's
+    server verifies the purchase with Google Play and keeps a record of it (product, number of
+    tokens, Google Play order ID, and your account identifier).</li>
+    <li><strong>Feedback:</strong> if you choose to send feedback from the app, we store your
+    star rating (1–5), your optional comment (up to 200 characters), the app version, and the
+    time, tied to your signed-in account (email address and identifier) so the developer can
+    follow up. Feedback is only sent when you tap Send.</li>
+    <li><strong>App integrity and configuration:</strong> the app uses Firebase App Check
+    (Google Play Integrity) to confirm requests come from the genuine app, and Firebase Remote
+    Config to receive settings such as the AI model name. These services use a Firebase
+    installation identifier for this purpose only.</li>
   </ul>
 
   <h2>What the app does not do</h2>
   <ul>
     <li>No advertising and no ad tracking.</li>
     <li>Your data is never sold or shared with third parties beyond the services named above
-    (Google Firebase and eBay), which are used solely to provide the app's functionality.</li>
+    (Google Firebase, Google Play, and eBay), which are used solely to provide the app's
+    functionality.</li>
     <li>No background activity on your eBay account — listings are created only on your
     explicit action.</li>
+    <li>No eBay account data is stored on our servers.</li>
   </ul>
 
   <h2>Data retention and deletion</h2>
   <p>Item entries and photos live on your device and are deleted when you delete them or
-  uninstall the app. Disconnecting your eBay account removes its tokens from your device.
-  To delete your account data on our servers (sign-in record, token balance, spend history),
-  email the address below from your signed-in Google account and it will be removed.</p>
+  uninstall the app. Disconnecting your eBay account removes its tokens and user ID from your
+  device. To delete your account data on our servers (sign-in record, token balance, spend
+  history, and feedback you sent), follow the steps on the
+  <a href="delete-account.html">account deletion page</a>. Purchase records may be kept as
+  needed for accounting, tax, and refund purposes.</p>
 
   <h2>Children</h2>
-  <p>The app is not directed at children under 13 and requires an eBay account to publish.</p>
+  <p>The app is intended for adults (18+) and requires an eBay account to publish. It is not
+  directed at children.</p>
 
   <h2>Changes</h2>
   <p>If this policy changes, the updated version will be posted at this address with a new
